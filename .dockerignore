@@ -1,0 +1,28 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+.nyc_output
+coverage
+.vscode
+.idea
+.DS_Store
+dist
+build
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+**/__tests__/
+
+# Development files (but keep TypeScript configs)
+.eslintrc*
+.prettierrc*
+
+# Docker files (to avoid recursive copying)
+Dockerfile*
+docker-compose*
+.dockerignore 

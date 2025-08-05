@@ -1,0 +1,16 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background);
+}
+
+/* Ensure main content takes up available space */
+.app > * {
+  flex-shrink: 0;
+}
+
+.app > main,
+.app > div:last-child {
+  flex: 1;
+}
